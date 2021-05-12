@@ -300,7 +300,7 @@ footer {
 #endpage a {
   text-decoration: none;
   color: white;
-  padding-right: 40px;
+  padding: 40px;
 }
 @media (max-width: 991px) {
   section {
