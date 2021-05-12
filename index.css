@@ -87,7 +87,7 @@ header ul li a:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
-  background: linear-gradient(270deg, #004999,#D31028);
+  background: linear-gradient(270deg, #004999, #d31028);
   background-size: 600% 600%;
   color: white;
   border-radius: 40px;
@@ -99,9 +99,15 @@ header ul li a:hover {
 }
 /*Animated button "view all products" */
 @keyframes cgcolors {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .content .imgBox {
@@ -254,7 +260,7 @@ header ul li a:hover {
   font-weight: 600;
 }
 #form {
-  padding-top: 10px;
+  padding-top: 20px;
   width: 100%;
 }
 #email {
@@ -283,6 +289,18 @@ footer {
 }
 #cdpn {
   vertical-align: middle;
+}
+#endpage {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #0062be;
+  text-align: center;
+  border-top: solid 2px white;
+}
+#endpage a {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
 }
 @media (max-width: 991px) {
   section {
