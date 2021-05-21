@@ -286,6 +286,7 @@ footer {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 500;
+  border-top: solid 2px white;
 }
 #cdpn {
   vertical-align: middle;
@@ -407,4 +408,117 @@ footer {
   #pepsi {
     font-size: 1.5em;
   }
+}
+
+footer img {
+  width: 30px;
+  vertical-align: middle;
+  margin: 6px;
+}
+footer div {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+#github a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+#github {
+  background: linear-gradient(270deg, #9e9e9e, #ffffff);
+  background-size: 600% 600%;
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 5px 10px 18px #0e0e0e41;
+  animation: cgcolors 4s ease-in-out infinite;
+}
+#freecodecamp a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+#freecodecamp {
+  background: linear-gradient(270deg, #ffffff, #9e9e9e);
+  background-size: 600% 600%;
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 5px 10px 18px #0e0e0e41;
+  animation: cgcolors 4s ease-in-out infinite;
+}
+
+#instagram a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+#instagram {
+  background: linear-gradient(270deg, #ffee00, #ff5100, #5715f0);
+  background-size: 600% 600%;
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 5px 10px 18px #0e0e0e41;
+  animation: cgcolors 4s ease-in-out infinite;
+}
+#instagram img {
+  border-radius: 20px;
+}
+@keyframes cgcolors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#email2 a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+#email2 {
+  background: linear-gradient(270deg, #006eff, #00c3ff);
+  background-size: 600% 600%;
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 5px 10px 18px #0e0e0e41;
+  animation: cgcolors 4s ease-in-out infinite;
+}
+#email2 img {
+  border-radius: 30px;
+}
+#codepen a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+#codepen {
+  background: linear-gradient(270deg, #46a51a, #36606d);
+  background-size: 600% 600%;
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 5px 10px 18px #0e0e0e41;
+  animation: cgcolors 4s ease-in-out infinite;
+}
+#twitter a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+#twitter {
+  background: linear-gradient(270deg, #00c3ff, #006eff);
+  background-size: 600% 600%;
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 5px 10px 18px #0e0e0e41;
+  animation: cgcolors 4s ease-in-out infinite;
+}
+#twitter img {
+  border-radius: 30px;
 }
